@@ -389,7 +389,7 @@ static void HandleDefinition() {
       fprintf(stderr, "\n");
     }
   } else {
-    // Skip token for error recovery.
+    // Skip token for error recovery
     getNextToken();
   }
 }
